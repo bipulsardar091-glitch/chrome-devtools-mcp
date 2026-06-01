@@ -2,8 +2,8 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "target": "esnext",
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "outDir": "./ignored",
     "rootDir": ".",
     "strict": true,
@@ -19,5 +19,6 @@
     "noEmit": true,
     "useUnknownInCatchVariables": false
   },
+  "files": [],
   "include": ["./**/*.ts", "./**/*.js", "./**/*.mjs"]
 }
