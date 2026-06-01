@@ -6,7 +6,7 @@ import { findChromePath, downloadChrome, promptYesNo } from "./ensure-chrome.ts"
 
 async function main(): Promise<void> {
   console.log("Installing dependencies...");
-  const install = spawnSync("npm", ["install"], {
+  const install = spawnSync("npm install", {
     stdio: "inherit",
     shell: true,
     cwd: resolve(import.meta.dirname!, ".."),
@@ -17,7 +17,7 @@ async function main(): Promise<void> {
   }
 
   console.log("Building project...");
-  const build = spawnSync("npm", ["run", "build"], {
+  const build = spawnSync("npm run build", {
     stdio: "inherit",
     shell: true,
     cwd: resolve(import.meta.dirname!, ".."),
