@@ -1,0 +1,8 @@
+{
+  "name": "chrome-devtools-mcp",
+  "version": "1.1.1",
+  "description": "Trimmed runtime copy of ChromeDevTools/chrome-devtools-mcp. Only build/, LICENSE, and this package.json are kept. The full source repo and devDependencies are not shipped.",
+  "type": "module",
+  "main": "./build/src/index.js",
+  "license": "Apache-2.0"
+}
