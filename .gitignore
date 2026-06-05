@@ -1,6 +1,9 @@
 node_modules/
-bin/chrome/
+dist/
+prod_build/
 .env
 .env.local
 *.log
+.DS_Store
 settings.json
+bin/chrome/
