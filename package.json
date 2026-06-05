@@ -5,8 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
-    "build:production": "node scripts/build-production.js",
-    "start": "node dist/server.js",
+    "start": "npm install && npm --prefix chrome-devtools-mcp install && npm run build && node dist/server.js",
+    "start:dev": "node dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
   },
   "engines": {
