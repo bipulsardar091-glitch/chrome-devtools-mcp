@@ -18,7 +18,8 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "form-data": "^4.0.0",
-    "mcp-proxy": "^6.5.1"
+    "mcp-proxy": "^6.5.1",
+    "puppeteer": "^24.0.0"
   },
   "//runtime-deps-for-chrome-devtools-mcp": "Packages below are NOT imported by localProxy itself. They are runtime deps of the bundled chrome-devtools-mcp stdio child (see chrome-devtools-mcp/build/src/third_party/index.js). They live in this node_modules/ so the spawned child can resolve them via Node's standard upward node_modules walk.",
   "devDependencies": {
